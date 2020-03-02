@@ -108,7 +108,7 @@ public class HumanEntity implements Serializable {
                 ", birthDate=" + birthDate +
                 '}';
     }
-    
+
 }
 
 

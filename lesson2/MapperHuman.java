@@ -14,6 +14,7 @@ public class MapperHuman implements Mapper<HumanEntity, HumanDTO>{
         addressDTO.setIndex(addressEntity.getIndex());
     }
 
+
     @Override
     public void mapAToB(HumanEntity humanEntity, HumanDTO humanDTO) {
         humanEntity.setName(humanDTO.getName());
