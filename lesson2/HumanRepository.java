@@ -20,6 +20,7 @@ public class HumanRepository implements Repository<HumanEntity> {
         return humanEntityList;
     }
 
+
     @Override
     public void save(HumanEntity humanEntity) {
         System.out.println(humanEntity);
